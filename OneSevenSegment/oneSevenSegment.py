@@ -1,5 +1,7 @@
 """
 Code for a single seven segment display digit - 5611AH
+Connections:
+Segments(A-G): 18, 15, 22, 23, 27, 14, 17
 """
 
 import RPi.GPIO as gp

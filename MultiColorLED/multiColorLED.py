@@ -1,5 +1,7 @@
 """
 Terminal input controls which pins get turned on, setting the colors of the 4-pin multicolor LED
+Connections:
+blue leg: 26	green leg: 19	red leg: 13
 """
 import RPi.GPIO as GPIO
 from time import sleep

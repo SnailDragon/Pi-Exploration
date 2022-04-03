@@ -4,6 +4,9 @@ Learning to use GPIO and other things on the raspberry pi
 ### Blink 
 &emsp;Basic blink program, toggles on and off an LED.
 
+### Matrix LED
+&emsp;Work in progress - will hopefully control a 8x32 LED matrix without using a library
+
 ### MultiColorLED
 &emsp;Takes terminal input to determine which pins on a multicolor LED are powered (y for on, anything else for off).
 

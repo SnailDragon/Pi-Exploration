@@ -1,3 +1,9 @@
+"""
+Beeps a piezo buzzer
+Connections:
+Buzzer: 14
+"""
+
 import RPi.GPIO as gp
 from time import sleep
 import sys

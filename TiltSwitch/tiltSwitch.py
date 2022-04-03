@@ -1,6 +1,9 @@
 """
 Uses a tilt switch turn on/off an LED 
 - needs sleep when debugging so that terminal output doesn't get left behind
+Connections:
+Tilt Switch: 15
+LED: 14
 """
 import RPi.GPIO as GPIO
 from time import sleep

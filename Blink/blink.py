@@ -1,4 +1,6 @@
-# Blinks LED  on pin 14 
+"""
+Blinks LED  on pin 14 
+"""
 
 import RPi.GPIO as gp
 from time import sleep
