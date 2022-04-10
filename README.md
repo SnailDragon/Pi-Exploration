@@ -16,5 +16,8 @@ Learning to use GPIO and other things on the raspberry pi
 ### Piezo Buzzer
 &emsp;Beeps a piezo buzzer.
 
+### Safe Storage Scheme
+&emsp;A template for a data collection sketch that writes every specified number of cycles to avoid data loss due to power loss.
+
 ### Tilt Switch
 &emsp;Turns on/off an LED based on if a tilt switch is connected or not.
