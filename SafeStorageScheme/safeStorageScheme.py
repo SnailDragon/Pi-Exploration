@@ -13,7 +13,6 @@ ID = time.strftime("%H%M%S", time.localtime()) + str(int(random() * 100))
 print(ID)
 STORING_GAP = 10 # how many cycles to wait until you take the time to save
 START_TIME = time.time()
-file = open(f"Results{ID}.csv", 'a')
 
 it = 0
 data = []
@@ -34,11 +33,13 @@ try:
 		it += 1
 		if(it % STORING_GAP == 0):
 			start = time.time()
+			file = open(f"Results{ID}.csv", 'a')
 			file.writelines(data)
+			file.close()
 			#clear stored values
 			data.clear()
-			
-			print("Write time: " + str(time.time() - start))
+				
+			print(f"{it}: Write time: " + str(time.time() - start))
 
 		time.sleep(0.013)
 
